@@ -46,10 +46,11 @@ Security vs Scalability
 This project explores how a layered approach can address these competing concerns.
 
 🔍 Use Cases
-Multi-tenant enterprise platforms
-Healthcare systems
-Cloud-based SaaS architectures
-Systems requiring fine-grained access control
+1. large-scale distributed systems / enterprise-scale systems
+2. Healthcare systems
+3. Cloud-based SaaS architectures
+4. Systems requiring fine-grained access control
+
 📌 Notes
 
 This project focuses on architectural design and system-level thinking, rather than implementation details, and aims to provide a reusable model for enterprise system design.

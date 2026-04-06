@@ -10,6 +10,7 @@ Platform-level authorization via API Gateway Authorizer
 Internal authorization service (Private API) for role and permission management
 Application-level RBAC for business-specific access control
 Trade-off analysis between centralization and flexibility
+
 🏗️ Architecture Overview
 
 This model separates authorization into multiple layers:

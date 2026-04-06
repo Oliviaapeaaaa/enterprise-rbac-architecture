@@ -18,9 +18,10 @@ Authentication Layer – User identity (Cognito)
 Platform Layer – Access control to shared services
 Authorization Layer – Internal role/permission data
 Application Layer – Business-specific RBAC logic
-📊 Diagram
 
-See /diagrams for architecture visualization (Mermaid / PNG).
+<img width="538" height="340" alt="tableConvert com_s74f9q" src="https://github.com/user-attachments/assets/502bd932-7a6f-4c3f-b212-7024c68318eb" />
+
+See /diagrams for architecture visualization (PNG).
 
 📄 Whitepaper
 

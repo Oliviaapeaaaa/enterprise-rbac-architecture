@@ -1,28 +1,18 @@
-📌 Project Overview
+## 📌 Overview
 
-This repository presents a layered authorization model for scalable enterprise systems, focusing on how to balance centralized identity management with application-level role-based access control (RBAC).
+This repository presents a system-level approach to designing scalable enterprise systems, focusing on authorization architecture in cloud-based environments.
 
-The design is based on real-world cloud architecture patterns and demonstrates how authentication, platform-level authorization, and application-level decision-making can be separated to improve scalability, flexibility, and maintainability.
+It explores how to balance centralized identity management with distributed, application-level decision-making through a layered authorization model.
 
-🧠 Key Concepts
-1. Centralized authentication using AWS Cognito
-2. Platform-level authorization via API Gateway Authorizer
-3. Internal authorization service (Private API) for role and permission management
-4. Application-level RBAC for business-specific access control
-5. Trade-off analysis between centralization and flexibility
+The work reflects practical system design experience combined with structured architectural thinking for real-world environments.
 
-🏗️ Architecture Overview
+## 🧠 Key Concepts
 
-This model separates authorization into multiple layers:
-
-Authentication Layer – User identity (Cognito)
-Platform Layer – Access control to shared services
-Authorization Layer – Internal role/permission data
-Application Layer – Business-specific RBAC logic
-
-
-
-See /diagrams for architecture visualization (PNG).
+- System-level thinking in enterprise architecture  
+- Centralized identity vs distributed authorization  
+- Layered decision-making across system boundaries  
+- Trade-offs between scalability, flexibility, and governance  
+- Real-world constraints in cloud-based systems  
 
 📄 Whitepaper
 
@@ -34,15 +24,13 @@ Covers system architecture design
 Provides trade-off analysis
 Discusses real-world considerations
 
-📄 Download Whitepaper
+📄 Download Whitepaper: https://github.com/Oliviaapeaaaa/enterprise-rbac-architecture/blob/main/whitepaper.pdf
 
-🚀 Motivation
+## 🚀 Motivation
 
-Modern enterprise systems must balance:
+Modern enterprise systems must operate under increasing scale and complexity, requiring architectural approaches that balance technical design with real-world constraints.
 
-Consistency vs Flexibility
-Centralized governance vs Application autonomy
-Security vs Scalability
+This work aims to provide a structured perspective on how complex systems can be designed to remain scalable, adaptable, and maintainable over time.
 
 This project explores how a layered approach can address these competing concerns.
 

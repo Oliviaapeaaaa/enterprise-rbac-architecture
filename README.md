@@ -5,11 +5,11 @@ This repository presents a layered authorization model for scalable enterprise s
 The design is based on real-world cloud architecture patterns and demonstrates how authentication, platform-level authorization, and application-level decision-making can be separated to improve scalability, flexibility, and maintainability.
 
 🧠 Key Concepts
-Centralized authentication using AWS Cognito
-Platform-level authorization via API Gateway Authorizer
-Internal authorization service (Private API) for role and permission management
-Application-level RBAC for business-specific access control
-Trade-off analysis between centralization and flexibility
+1. Centralized authentication using AWS Cognito
+2. Platform-level authorization via API Gateway Authorizer
+3. Internal authorization service (Private API) for role and permission management
+4. Application-level RBAC for business-specific access control
+5. Trade-off analysis between centralization and flexibility
 
 🏗️ Architecture Overview
 
